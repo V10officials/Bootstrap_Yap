@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practice </title>
+</head>
+<body>
+	<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>
+    </h1>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark px-2">
+    <a class="navbar-brand" href="#">
+        <img src="file:///C:/Users/STUDENT/Desktop/DC.png" alt="DC" height="40">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse p-2" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+<!-- End Navbar -->
+
+
+
+
+
+<!--Main Content-->
+<div class="container mt-5">
+    <h2 class="text-center mb-4">About heroes</h2>
+    
+    <div id="starryCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#starryCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#starryCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#starryCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <!--first slide-->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="card testimonial-card">
+                    <div class="card-body">
+                        <p class="testimonial-text">"The Absolute Superman"</p>
+                        <div class="testimonial-author d-flex align-items-center">
+                            <img src="file:///C:/Users/STUDENT/Desktop/AbsoluteSuperman.jpg" alt="Absolute" class="author-photo rounded-circle">
+                            <div class="author-info ms-3">
+                                <h5>Absolute Superman(a.k.a Clark Kent)</h5>
+                                <p class="mb-0">Mission on Earth: Clark dedicates his powers to fighting corporate exploitation, secretly helping oppressed workers in diamond mines and other treacherous, low-wage environments. He views himself as a champion for the common, disenfranchised person, reflecting his upbringing in Krypton's Labor Guild.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Second Slide-->
+            <div class="carousel-item">
+                <div class="card testimonial-card">
+                    <div class="card-body">
+                        <p class="testimonial-text">The Absolute Batman"</p>
+                        <div class="testimonial-author d-flex align-items-center">
+                            <img src="file:///C:/Users/STUDENT/Desktop/AbsoluteBatman.jpg" alt="absolute" class="author-photo rounded-circle">
+                            <div class="author-info ms-3">
+                                <h5>Absolute Batman(A.k.a Bruce Wayne)</h5>
+                                <p class="mb-0">Not Wealthy: He is a blue-collar civil engineer from a humble, working-class background, lacking the Wayne fortune, Wayne Manor, or the support of a traditional Alfred Pennyworth (who, in this universe, is an MI6 agent stalking him).
+                                Brawn and Brains: He is often depicted as a larger, more physically imposing "absolute unit" of a Batman, using self-designed equipment and a more brutal, brawling fighting style.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="card testimonial-card">
+                    <div class="card-body">
+                        <p class="testimonial-text">"Alex Mercer "</p>
+                        <div class="testimonial-author d-flex align-items-center">
+                            <img src="file:///C:/Users/STUDENT/Desktop/AlexMercer.jpg" alt="Alex" class="author-photo rounded-circle">
+                            <div class="author-info ms-3">
+                                <h5>Alex Mercer</h5>
+                                <p class="mb-0">Alex can manipulate the Blacklight virus inside him for his own advantage such as instantly killing anyone in his immediate vicinity through viral gas or controlling the Blacklight virus to create infected entities like that of the Redlight virus  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#starryCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#starryCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>                                                                                                                                                                                                                                                                                                                                                         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--footer-->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .footer {
+            background: linear-gradient(145deg, #1a1c23, #242730);
+            color: #ffffff;
+        }
+        
+        .footer-title {
+            color: #fff;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            position: relative;
+        }
+        
+        .footer-title::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -8px;
+            width: 30px;
+            height: 2px;
+            background: #6c5ce7;
+        }
+        
+        .footer-links {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .footer-links li {
+            margin-bottom: 1rem;
+        }
+        
+        .footer-links a {
+            color: #b4b6bb;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .footer-links a:hover {
+            color: #ffffff;
+            padding-left: 5px;
+        }
+        
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.1);
+            color: #ffffff;
+            margin-right: 10px;
+            transition: all 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            background: #6c5ce7;
+            transform: translateY(-3px);
+        }
+        
+        .newsletter-input {
+            background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.1);
+            color: #ffffff;
+        }
+        
+        .newsletter-input:focus {
+            background: rgba(255,255,255,0.15);
+            border-color: #6c5ce7;
+            color: #ffffff;
+            box-shadow: none;
+        }
+        
+        .btn-subscribe {
+            background: #6c5ce7;
+            border: none;
+            padding: 0.5rem 1.5rem;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-subscribe:hover {
+            background: #5a4bd1;
+            transform: translateY(-2px);
+        }
+        
+        .footer-bottom {
+            background: rgba(0,0,0,0.2);
+        }
+        
+        .footer-bottom a {
+            color: #6c5ce7;
+            text-decoration: none;
+        }
+        
+        .footer-bottom a:hover {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <footer class="footer pt-5">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Company Info -->
+                <div class="col-lg-4 col-md-6">
+                    <h3 class="footer-title">About MySelf</h3>
+                    <p class="mb-4">I am the creator of this page.</p>
+                    <div class="social-links mb-4">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/?lang=en"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.fablink.net"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-lg-2 col-md-6">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">About Me</a></li>
+                        <li><a href="#">Skills</a></li>
+                        <li><a href="#">Info</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Support -->
+                <div class="col-lg-2 col-md-6">
+                    <h3 class="footer-title">Support</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+
+                
+        <!-- Footer Bottom -->
+        <div class="footer-bottom mt-5">
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col-md-6 text-center text-md-start">
+                        <p class="mb-0">&copy; 2024 Your Company. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <p class="mb-0">Designed with <i class="fas fa-heart text-danger"></i> by <a href="#">YourBrand</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+</html>
+
